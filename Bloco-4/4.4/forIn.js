@@ -15,11 +15,18 @@ for (let i in cars) {
 }
 
 //bandas grunges
+//for-in
 let vocalsGrunge = {
   pj: 'Eddie Vedder',
   soundgarden: 'Chris Cornnel',
   lovesMotherBone: 'Andrew Wood',
 };
 for(let i in vocalsGrunge) {
-  console.log(i, vocalsGrunge[i]);
+ // console.log(i, vocalsGrunge[i]);
+}
+
+//for-of
+let bandsGrunges = ['Pearl Jam', 'soundGarden', 'Loves Mother Bone'];
+for(let bands of bandsGrunges) {
+ // console.log(bands)
 }
