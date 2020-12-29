@@ -6,4 +6,17 @@ function criandoTag() {
 }
 criandoTag();
 
-//Adicione a tag div com a classe main-content como filho da tag body;
+function classMainContentCenterContant() {
+  //Adicione a tag div com a classe main-content como filho da tag body;
+  const tagDivMain = document.createElement("div");
+  tagDivMain.className = "main-content";
+  document.body.appendChild(tagDivMain);
+
+  //Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
+
+  const divCenterContent = document.createElement("div");
+  divCenterContent.className = "center-content";
+  tagDivMain.appendChild(divCenterContent);
+}
+classMainContentCenterContant();
+
