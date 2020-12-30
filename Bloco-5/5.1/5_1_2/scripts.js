@@ -1,6 +1,8 @@
 //1-Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 const tagH1 = document.createElement("h1");
 tagH1.innerHTML = "Exercício 5.2 - JavaScript Dom";
+//10-Adicione a classe title na tag h1 criada;
+tagH1.className= "title";
 document.body.appendChild(tagH1);
 
 //2-Adicione a tag div com a classe main-content como filho da tag body;
@@ -43,3 +45,14 @@ const arrayNumbers =['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', '
     listLi.innerHTML = arrayNumbers[num];
     listsUl.appendChild(listLi)
   }
+
+  //9-Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
+  for(let index = 1; index <=3; index +=1) {
+  const tagsH3 = document.createElement('h3');
+  tagsH3.innerHTML = ' ' + index;
+   //11-Adicione a classe description nas 3 tags h3 criadas;
+  tagsH3.className = 'description';
+  tagDivMain.appendChild(tagsH3);
+  } 
+  
+
