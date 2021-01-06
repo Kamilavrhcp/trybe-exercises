@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/bulma-0.9.1/bulma/css/bulma.css">
+  <link rel="stylesheet" href="style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
   <title>Formulário | Currículo </title>
 </head>
 <body>
 
     <header class="section">
+  
       <h1 class="title has-text-centered">Formulário para cadastro de currículo</h1>
       <p class="subtitle has-text-centered">Preencha os campos abaixo</p>
     </header>
 
     <hr>
-
+  <form>
     <div class="section">
       <form action='' method='GET'>
         <div class="control">
@@ -55,7 +57,7 @@
           </div>
           
           <div class="field">
-            <label class="label" for="estados">Estados:</label>
+            <label class="label" for="estados">Estado:</label>
             <input class="input is-info is-rounded"name="estados" id="estados" value="" required>
           </div>
 
@@ -94,10 +96,10 @@
             <button class="button is-info is-rounded" type="submit">Concluir</button>
             <button class="button is-danger is-rounded" type="reset">Apagar</button>
           </div>
-        
+        </form>
       </div>
       </form>  
       </div>
-
+  
 </body>
 </html>
