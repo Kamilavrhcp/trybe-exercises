@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bulma-0.9.1/bulma/css/bulma.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  <title>Formulário | Currículo </title>
+</head>
+<body>
+
+    <header class="section">
+  
+      <h1 class="title has-text-centered">Formulário para cadastro de currículo</h1>
+      <p class="subtitle has-text-centered">Preencha os campos abaixo</p>
+    </header>
+
+    <hr>
+  <form>
+    <div class="section">
+      <form action='' method='GET'>
+        <div class="control">
+
+          <div class="field">
+            <label  class="label" for="name">Nome:</label>
+            <input class="input is-info is-rounded" type="text" name="name" id="name" maxlength="40" placeholder="Nome" required>
+          </div>
+    
+          <div class="field">
+            <label class="label" for="email">E-mail:</label>
+            <div class="control has-icons-left has-icons-right">
+            <input class="input is-info is-rounded" type="email" name="email" id="email" maxlength="50" placeholder="Email" required>
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope fa"></i>
+            </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check">
+                </i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label" for="cpf">CPF:</label>
+            <input class="input is-info is-rounded" type="text" name="cpf" id="cpf" maxlength="11" required>
+          </div>
+
+          <div class="field">
+            <label class="label" for="endereço">Endereço:</label>
+            <input class="input is-info is-rounded"type="text" name="endereço" id="endereço" maxlength="200" required>
+          </div>
+
+          <div class="field">
+            <label class="label" for="cidade">Cidade:</label>
+            <input class="input is-info is-rounded" type="text" name="cidade" id="cidade" maxlength="28" required>
+          </div>
+          
+          <div class="field">
+            <label class="label" for="estados">Estado:</label>
+            <input class="input is-info is-rounded"name="estados" id="estados" value="" required>
+          </div>
+
+          <div class="field">
+            <p class="label" class="label" for="casa-ap">Tipo de imovel:</p>
+            <label class="radio" for="casa">
+            <input type="radio" name="casa-ap" id="casa" value="casa">Casa
+          </label> 
+          
+          <label class="radio" for="apartamento">
+            <input type="radio" name="casa-ap" id="apartamento" value="apartamento">Apartamento
+          </label> 
+          </div>
+          
+          <div class="field">
+            <label class="label" for="resumo-cv">Resumo do Currículo</label>
+            <textarea class="textarea is-rounded" name="resumo-cv" id="resumo-cv" maxlength="1000" cols="30" rows="10" required></textarea>
+          </div>
+
+          <div class="field">
+            <label class="label" for="cargo">Cargo:</label>
+            <input class="input is-info is-rounded" type="text" name="cargo" id="cargo" maxlength="40" value="cargo"required>
+          </div>
+
+          <div class="field">
+            <label class="label" or="descricao-cargo">Descrição do Cargo:</label>
+            <textarea class="textarea is-rounded" name="descricao-cargo" id="descricao-cargo" maxlength="5000" cols="30" rows="10"required></textarea>
+          </div>
+
+          <div class="field">
+            <label class="label" for="data-inicio">Data de Início:</label>
+            <input class="input is-info is-rounded" type="text" class="input-data" name="data-inicio" value="" required>
+          </div>
+
+          <div class="field">
+            <button class="button is-info is-rounded" type="submit">Concluir</button>
+            <button class="button is-danger is-rounded" type="reset">Apagar</button>
+          </div>
+        </form>
+      </div>
+      </form>  
+      </div>
+  
+</body>
+</html>
