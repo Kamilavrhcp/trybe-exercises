@@ -10,17 +10,89 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: 1 1 auto;
-  min-width: 25%;
-  margin: 10px 10px;
+  /* flex:content; */
+  flex-direction:column;
+  /* flex-basis:auto 5 5; */
+  min-width: 35%;
+  height: 250px;
+  width: 200px;
+  margin: 2px 3px;
   border: 3px rgb(43, 51, 5) solid;
   border-radius: 10px;
   background-color: rgb(178, 193, 241);
 }
+.card{
+  background-color: rgb(212, 135, 135);
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  padding: 2%;
+  justify-content: space-around;
+  min-width: 35%;
+  /* right: 50px; */
+  /* height: 250px; */
+
+}
 
 .pokedex {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10px 10px;
   background-color: rgb(241, 235, 235);
+}
+
+.proximo-pokemon {
+  background-color: rgb(125, 136, 136);
+}
+
+.fire {
+  background-color: rgb(233, 143, 143);
+}
+
+.psychic {
+  background-color: rgb(194, 148, 117);
+}
+
+.electric {
+  background-color: rgb(153, 135, 108);
+}
+
+.bug {
+  background-color: rgb(161, 211, 167);
+}
+
+.normal {
+  background-color: rgb(42, 63, 156);
+}
+
+.dragon {
+  background-color: rgb(91, 71, 117);
+}
+.poison {
+  background-color: rgb(133, 95, 133);
+}
+.flying {
+  background-color: rgb(114, 96, 95);
+}
+.water {
+  background-color: rgb(31, 119, 167);
+}
+
+.grass {
+  background-color: rgb(76, 129, 79);
+}
+.ghost {
+  background-color: rgb(90, 100, 100);
+}
+.all {
+  background-color: rgb(128, 26, 26);
+}
+
+button {
+  color: rgb(243, 243, 233);
+  border-radius: 70px;
+
 }

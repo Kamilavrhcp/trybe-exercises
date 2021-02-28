@@ -1,35 +1,20 @@
 import React from "react";
-import propTypes from 'prop-types';
 
 class Pokemon extends React.Component {
   render() {
     const { pokemon } = this.props;
-    const { name, type, averageWeight, image } = pokemon;
+    const { name, type, averageWeight: { value, measurementUnit }, image } = pokemon;
     return (
-    <div className="pokemon">
-      <div>
+    <section className="card">
+      <div className="pokemon">
         <p>{ name }</p>
         <p>{ type }</p>
-        <p>{`Average weight:
-        ${ averageWeight.value }
-        ${averageWeight.measurementUnit}`}
-        </p>
-        <img src={ image } alt={`${name} sprite`}/>
+        <p> Average Weigth: { value } { measurementUnit} </p>
+        <img src={ image } alt={ name} />
       </div>
-    </div>
+    </section>
     );
   }
-}
-
-Pokemon.propTypes = {
-  pokemon: propTypes.shape({
-    name: propTypes.string,
-    type: propTypes.string,
-    averageWeight: propTypes.shape({
-      measurementUnit: propTypes.string,
-      value: propTypes.number,
-    })
-  }).isRequired,
 }
 
 export default Pokemon;
