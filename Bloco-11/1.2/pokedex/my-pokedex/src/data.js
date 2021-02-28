@@ -222,6 +222,28 @@ const pokemons = [
     image:"https://archives.bulbagarden.net/media/upload/5/5c/Spr_5b_248.png",
     moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
   },
+  {
+    id: 81,
+    name: "Magnemiter",
+    type: "Steel",
+    averageWeight: {
+      value: 6,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_081.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon)",
+  },
+  {
+    id: 35,
+    name: "Clefairy",
+    type: "Fairy",
+    averageWeight: {
+      value: 7.5,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/7/76/Spr_5b_035.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)",
+  },
 ];
 
 export default pokemons;

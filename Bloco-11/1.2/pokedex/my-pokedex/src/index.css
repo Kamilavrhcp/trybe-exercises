@@ -103,6 +103,12 @@ body {
 .dark {
   background-color: rgb(15, 15, 15);
 }
+.steel {
+  background-color: rgb(71, 71, 70);
+}
+.fairy {
+  background-color: rgb(221, 124, 140);
+}
 .all {
   background-color: rgb(128, 26, 26);
 }
