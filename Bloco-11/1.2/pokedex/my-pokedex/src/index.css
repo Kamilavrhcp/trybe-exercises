@@ -87,6 +87,22 @@ body {
 .ghost {
   background-color: rgb(90, 100, 100);
 }
+.fighting {
+  background-color: rgb(92, 73, 73);
+}
+.ground {
+  background-color: rgb(226, 166, 36);
+}
+
+.rock {
+  background-color: rgb(152, 85, 158);
+}
+.ice {
+  background-color: rgb(131, 218, 230);
+}
+.dark {
+  background-color: rgb(15, 15, 15);
+}
 .all {
   background-color: rgb(128, 26, 26);
 }

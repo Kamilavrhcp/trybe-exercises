@@ -172,11 +172,55 @@ const pokemons = [
     name: "Mankey",
     type: "Fighting",
     averageWeight: {
-      value: 0.1,
+      value: 28,
       measurementUnit: "kg",
     },
-    image:"https://archives.bulbagarden.net/media/upload/1/12/Spr_5b2_093_s.png",
-    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
+    image:"https://archives.bulbagarden.net/media/upload/9/9f/Spr_5b_056.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon)",
+  },
+  {
+    id: 27,
+    name: "Sandshrew",
+    type: "Ground",
+    averageWeight: {
+      value: 12,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/1/17/Spr_5b_027.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
+  },
+  {
+    id: 142,
+    name: "Aerodactyl",
+    type: "Rock",
+    averageWeight: {
+      value: 59,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/7/74/Spr_5b_142_s.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon)",
+  },
+  {
+    id: 131,
+    name: "Lapras",
+    type: "Ice",
+    averageWeight: {
+      value: 220,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/6/62/Spr_5b_131.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
+  },
+  {
+    id: 248,
+    name: "Tyranitar",
+    type: "Dark",
+    averageWeight: {
+      value: 202,
+      measurementUnit: "kg",
+    },
+    image:"https://archives.bulbagarden.net/media/upload/5/5c/Spr_5b_248.png",
+    moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)",
   },
 ];
 

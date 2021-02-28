@@ -58,6 +58,11 @@ class Pokedex extends React.Component {
           <Button onClick={ () => this.filterPokemonType('Water') } className="water">Water</Button>
           <Button onClick={ () => this.filterPokemonType('Grass') } className="grass">Grass</Button>
           <Button onClick={ () => this.filterPokemonType('Ghost') } className="ghost">Ghost</Button>
+          <Button onClick={ () => this.filterPokemonType('Fighting') } className="fighting">Fighting</Button>
+          <Button onClick={ () => this.filterPokemonType('Ground') } className="ground">Ground</Button>
+          <Button onClick={ () => this.filterPokemonType('Rock') } className="rock">Rock</Button>
+          <Button onClick={ () => this.filterPokemonType('Ice') } className="ice">Ice</Button>
+          <Button onClick={ () => this.filterPokemonType('Dark') } className="dark">Dark</Button>
           <Button onClick={ () => this.filterPokemonType('') } className="all">All</Button>
         </div>
       </main>
